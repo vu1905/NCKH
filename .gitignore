@@ -14,4 +14,4 @@ qdrant_db/
 *.zip
 
 # Raw dataset folder (large PDF corpus & embedded git repo)
-cuad/
+

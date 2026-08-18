@@ -11,7 +11,6 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # ==========================================
 # Thay bằng GROQ_API_KEY của bạn (lấy tại https://console.groq.com)
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "your_groq_api_key_here") 
-
 # Kết nối Qdrant Database (Local Storage)
 qdrant_client = QdrantClient(path="./qdrant_db")
 QDRANT_COLLECTION = "cuad_clauses"
