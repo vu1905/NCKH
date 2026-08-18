@@ -1,0 +1,24 @@
+# --- Framework & Giao diện ---
+streamlit>=1.30.0
+watchdog>=4.0.0
+
+# --- Vector Database & AI Embedding ---
+sentence-transformers>=2.2.2
+qdrant-client>=1.7.0
+torch
+torchvision
+transformers
+
+# --- Knowledge Graph ---
+neo4j>=5.15.0
+
+# --- LLM API Client ---
+groq>=0.4.0
+
+# --- Xử lý Dữ liệu & Bảng biểu ---
+pandas>=2.0.0
+openpyxl>=3.1.0
+tqdm>=4.65.0
+
+# --- Sinh & Xử lý File PDF ---
+fpdf2>=2.7.0
