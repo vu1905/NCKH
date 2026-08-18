@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & secrets
+.env
+.venv/
+venv/
+ENV/
+
+# Large database & binary storage
+qdrant_db/
+*.zip
+
+# Raw dataset folder (large PDF corpus & embedded git repo)
+cuad/
